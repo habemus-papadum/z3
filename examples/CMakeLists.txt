@@ -78,3 +78,5 @@ set_target_properties(z3_tptp5 PROPERTIES EXCLUDE_FROM_ALL TRUE)
 if (BUILD_PYTHON_BINDINGS)
   add_subdirectory(python)
 endif()
+
+add_subdirectory(c++-inline)
